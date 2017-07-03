@@ -1,0 +1,77 @@
+#ocho{
+	
+	
+
+	 
+        
+        background-color: #00cc99;
+
+        width: 23%;
+        -webkit-box-shadow: -12px 0px 5px 0px rgba(0,0,0,0.60);
+       -moz-box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.60);
+        box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.1);
+        float: left; 
+
+     
+}
+#seleccion {
+
+	
+	
+   
+   float: right;
+   transform: translateX(0%) translateY(-20%);
+   background-color: #00cc99;
+    width: 300px;
+    margin: inherit;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #00cc99;
+
+}
+
+form{
+    width: 300px;
+    margin: inherit;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: #00cc99;
+    
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    
+}
+
+#boton{
+    background: #31384A;
+    color: #fff;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+.logo{
+    margin: inherit;
+}
+
+

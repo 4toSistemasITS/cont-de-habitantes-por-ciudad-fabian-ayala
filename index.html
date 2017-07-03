@@ -1,0 +1,155 @@
+<html>
+<head>
+    <title>Clinica San Agustin</title>
+    <link rel="stylesheet" href="style/iestil.css">
+    <meta charset="utf-8">
+    <meta name="author" content="grupo3">
+    <meta name="description" content="Citas medicas ">
+    <link rel="stylesheet" type="text/css" href="style/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="js/controller.js" ></script>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+      <div ng-app="myApp" ng-controller="myCtrl" style="background-color: {{color1}} ; color:{{letra}};font-size: {{Tletra}}px">
+      
+
+      First Name:<input type="text" ng-model="firstName"> 
+      
+      ColorLetra: <input type="color" ng-model="letra">
+
+      Tamaño de a letra<input type="number" ng-model="Tletra">
+
+      
+
+      <div direct1>
+        
+      </div>
+      
+
+
+
+      <div data-ng-app="" data-ng-init="numero1=2;numero2=2">
+      <h2>Calculadore</h2>
+
+      Quantity:<input type="number" ng-model="numero1">
+      Price:<input type="number"  ng-model=numweo2>
+
+      <p><b>Suma:</b>{{numero1 + numero2}}</p>  
+      
+      <p><b>Resta:</b>{{numero1 - numero2}}</p> 
+
+      <p><b>Multiplicacion:</b>{{numero1 * numero2}}</p> 
+
+      <p><b>Divide:</b>{{numero1 / numero2}}</p> 
+
+
+      
+      </div>
+
+      <div ng-controller ="lista">
+      <ul>
+      <li ng-repeat="x in data">
+       
+       {{x}} 
+
+      </li> 
+
+      </ul>  
+
+      </div>
+
+    <div ng-controller="listasuma">
+
+    <p>Suma de casenos:</p>
+
+    <ul>
+    <li ng-repeat="x in data2">
+  
+   {{ x.nombre + ', ' + x.ciudad }}
+   </li>
+
+  </ul>
+
+  </div>
+
+
+<div ng-controller="lista2">
+<li ng-repeat="x in names">
+ {{x}}
+
+</li>
+<ul>
+  Total:{{getTotal()}}
+  Total,Mayor: {{getMayor()}}
+  Total,Menor: {{getMenor()}}
+  Total,contador,cincos: {{getCincos()}}
+
+</ul>
+</div>
+
+
+
+ <div ng-controller="listasuma2">
+
+    <h1>Contador de ciudades</h1>
+    <ul>
+    <li ng-repeat="x in data2">
+  
+   {{ x.nombre + ', ' + x.ciudad }}
+   </li>
+
+  </ul>
+
+  </div>
+
+<div ng-controller="lista3">
+<li ng-repeat="x in names">
+ {{x}}
+
+</li>
+<ul>
+  
+  Total de habitantes por ciudad: {{getloja()}}
+  <br>
+  Total de habitantes por ciudad: {{getsinaloa()}}
+  <br>
+  Total de habitantes por ciudad: {{getzamora()}}
+  
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+    
+
+
+
+       
+
+
+        
+</body>
+</html>
